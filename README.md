@@ -55,12 +55,15 @@ Principal component analysis was then applied to examine common patterns of move
 
 ```text
 .
-├── APM466_A1.ipynb
-├── APM466_A1_LH.pdf
-├── Bond_Data_MT_long.xlsx
-├── Bond_Data_ST_long.xlsx
+├── data/
+│   ├── Bond_Data_MT_long.xlsx
+│   └── Bond_Data_ST_long.xlsx
+│
 ├── pngs/
 │   ├── yield_curve.png
 │   ├── spot_curve.png
 │   └── forward_curve.png
+│
+├── fixed_income_term_structure.ipynb
+├── fixed_income_term_structure_report.pdf
 └── README.md
